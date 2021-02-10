@@ -378,7 +378,8 @@ h3{
 .webItems img{
   max-width: 90%;
   filter: drop-shadow(0 0 1em #0808);
-
+  padding: 0;
+  margin: 0;
 }
 
 .webItems h4{
@@ -948,8 +949,8 @@ h3{
        align-items: center;
        flex-flow: column;
        width: 50%;
-       padding: 0em;
-       margin: 0em;
+       padding: 0;
+       margin: 0;
      }
 
      .items-0 a{
