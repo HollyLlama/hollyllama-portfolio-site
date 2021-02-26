@@ -1,7 +1,5 @@
 
-
-
-
+/*Button Functions*/
 
 jQuery(document).ready(function(){
     jQuery('#hideshowillustration').on('click', function(event) {
@@ -30,4 +28,11 @@ jQuery(document).ready(function(){
         jQuery('#hideshowprint').on('click', function(event) {
             jQuery('#printDiv').toggle('show');
           });
+
+
+
+/*Copyright Date*/
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 });
