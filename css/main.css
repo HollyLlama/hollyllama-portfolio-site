@@ -134,7 +134,7 @@ h1 {
 }
 
 h2 {
-  color: #368f8b;
+  color: #fff;
   font-family: 'Oswald', sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
@@ -198,7 +198,7 @@ article {
 
  header {
    align-items: center;
-   background: url('../img/jonathan-knepper-unsplash-gradient copy.jpg');
+   background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -248,14 +248,14 @@ nav li {
 }
 
 .btn:hover, .btn:focus {
-  color: #368f8b;
+  color: #fff;
   outline: 0;
 }
 
 .first {
   border-color: #368f8b;
   box-shadow: 0 0 1.2em 1.2em #368f8b inset, 0 0 0 0 #368f8b;
-  color: #ffff;
+  color: #fff;
   transition: all 150ms ease-in-out;
 }
 
@@ -273,7 +273,7 @@ nav li {
 
 .second:hover {
   box-shadow: 0 0 .5em 0 #368f8b inset, 0 0 .8em .3em #368f8b;
-  color: #368f8b;
+  color: #fff;
 }
 
 .third {
@@ -286,7 +286,7 @@ nav li {
 
 .third:hover {
   box-shadow: 0 0 .5em 0 #368f8b inset, 0 0 .8em .3em #368f8b;
-  color: #368f8b;
+  color: #fff;
 }
 
 .llamalogo{
@@ -316,6 +316,7 @@ main p {
 
 #portfolio{
  background-color: #368f8b;
+ filter: drop-shadow(0 0 0.30rem rgba(0, 0, 0, .5));
 }
 
 .web-items-top{
@@ -329,6 +330,7 @@ main p {
 .web-items-top figure {
   max-width: 80%;
   padding-top: 2em;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
 }
 
 .web-items-top article {
@@ -350,6 +352,7 @@ main p {
 
 .web-items figure img {
   border-radius: .5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .web-items article {
@@ -360,14 +363,10 @@ main p {
 /****** ABOUT ******/
 
 #about {
-  background: url('../img/jonathan-knepper-unsplash-gradient-2.jpg');
+  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#about h1 {
-  color: #368f8b;
 }
 
 .about-items {
@@ -381,6 +380,7 @@ main p {
 .about-items figure {
   padding: 1em;
   width: 60%;
+  filter: drop-shadow(5px 5px 5px 5px rgba(0, 0, 0, 0.2));
 }
 
 #square {
@@ -401,6 +401,7 @@ main p {
   justify-content: center;
   margin: 0;
   width: 100%;
+  filter: drop-shadow(0 0 0.30rem rgba(0, 0, 0, .5));
 }
 
 .contact {
@@ -721,7 +722,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 1em;
   margin: 0;
   text-align: left;
@@ -738,7 +739,7 @@ p {
 /* Header */
 
 header {
-  background: url('../img/jonathan-knepper-unsplash-gradient copy.jpg');
+  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -773,7 +774,7 @@ nav ul li {
 
 .btn {
   border-radius: 0.8em;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: .7em;
   padding: .3em .7em;
 }
@@ -791,11 +792,11 @@ nav ul li {
 }
 
 .llamalogo{
-  width: 30%;
+  width: 40%;
   margin: 0;
   order: 1;
   padding-right: 45em;
-  padding-top: .8em;
+  padding-top: .5em;
 }
 
 main {
@@ -805,7 +806,7 @@ main {
   justify-content: center;
   order: 2;
   width: 95%;
-  padding: 2em 0 8em 5em;
+  padding: .5em 0 3em 5em;
 }
 
 
@@ -850,11 +851,11 @@ main {
   text-align: center;
   max-width: 100%;
   display: flex;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .web-items figure:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .web-items img {
@@ -880,7 +881,7 @@ main {
 /****** ABOUT ******/
 
 #about {
-  background: url('../img/jonathan-knepper-unsplash-gradient-2.jpg');
+  background: url('../img/annie-spratt-L6GydBHMVGQ-unsplash.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -893,7 +894,7 @@ main {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  padding-top: 4em;
+  padding: 4em 0;
 }
 
 .about-items figure {
