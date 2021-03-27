@@ -134,7 +134,7 @@ h1 {
 }
 
 h2 {
-  color: #6099b7;
+  color: #446b80;
   font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
@@ -147,7 +147,7 @@ h2 {
 h4 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 300;
   margin-bottom: 0;
   text-align: center;
@@ -156,7 +156,7 @@ h4 {
 p {
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 200;
   margin: 0;
   max-width: 100%;
@@ -170,7 +170,7 @@ p {
   flex-flow: column;
   justify-content: center;
   margin: 0;
-  max-width: 100%;
+  width: 100%;
   padding-bottom: 3em;
 }
 
@@ -309,12 +309,16 @@ main {
   padding: 2em 0;
 }
 
+main h2 {
+  width: 82%;
+  padding-bottom: 2rem;
+}
+
  /****** PORTFOLIO ******/
 
 
 #portfolio{
  background-color: #6099b7;
-
 }
 
 .web-items-top{
@@ -322,17 +326,17 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  max-width: 90%;
+  width: 90%;
 }
 
 .web-items-top figure {
-  max-width: 80%;
+  max-width: 90%;
   padding-top: 2em;
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
 }
 
 .web-items-top article {
-  max-width: 80%;
+  width: 90%;
 }
 
 .web-items{
@@ -344,7 +348,7 @@ main {
 }
 
 .web-items figure {
-  max-width: 80%;
+  width: 90%;
   padding-top: 2em;
 }
 
@@ -365,6 +369,11 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#about h2 {
+  padding: 1rem 0 7em 0;
+  width: 90%;
 }
 
 .about-items {
@@ -533,6 +542,7 @@ main {
  h2 {
    font-size: 1.2rem;
    text-align: left;
+   color: #446b80;
  }
 
  h4 {
@@ -596,7 +606,7 @@ main {
 
  main {
  width: 50%;
- padding: 3em 0;
+ padding: 3em 0 8em 0;
  order: 2;
  }
 
@@ -722,6 +732,7 @@ h2 {
   padding: 2em 0 0 0;
   margin: 0;
   text-align: left;
+  color: #6099b7;
 }
 
 h4 {
