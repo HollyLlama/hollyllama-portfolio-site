@@ -134,7 +134,7 @@ h1 {
 }
 
 h2 {
-  color: #446b80;
+  color: #6099b7;
   font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
@@ -206,6 +206,7 @@ article {
    flex-flow: column;
    justify-content: center;
    width: 100%;
+   padding-bottom: 8rem;
  }
 
 nav {
@@ -214,7 +215,7 @@ nav {
   flex-flow: row;
   justify-content: center;
   max-width: 100%;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 
 nav ul {
@@ -369,11 +370,13 @@ main h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 12rem;
+
 }
 
 #about h2 {
-  padding: 1rem 0 7em 0;
-  width: 90%;
+  padding: 2rem 0;
+  width: 85%;
 }
 
 .about-items {
@@ -542,7 +545,7 @@ main h2 {
  h2 {
    font-size: 1.2rem;
    text-align: left;
-   color: #446b80;
+   color: #6099b7;
  }
 
  h4 {
@@ -560,6 +563,7 @@ main h2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  padding-bottom: 12rem;
  }
 
  nav {
@@ -605,8 +609,8 @@ main h2 {
 }
 
  main {
- width: 50%;
- padding: 3em 0 8em 0;
+ width: 45%;
+ padding: 3em 0;
  order: 2;
  }
 
