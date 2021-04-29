@@ -401,6 +401,14 @@ main h2 {
   width: 100%;
 }
 
+.about-items article a {
+  color:#6099b7;
+}
+
+.about-items article a:hover{
+  color: rgb(145, 143, 143);
+}
+
 /****** CONTACT ******/
 
 #contact {
@@ -732,8 +740,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7rem;
-  padding: 2em 0 0 0;
+  font-size: 1.4rem;
+  padding: 0;
   margin: 0;
   text-align: left;
   color: #6099b7;
@@ -820,8 +828,8 @@ main {
   flex-flow: row;
   justify-content: center;
   order: 3;
-  width: 95%;
-  padding: 0 0 8em 3em;
+  width: 80%;
+  padding: 1em 0 3em 5em;
   margin: 0;
 }
 
@@ -920,14 +928,17 @@ main {
 }
 
 .about-items article {
-  width: 35%;
-  padding-right: 6em;
+  width: 30%;
+  padding-right: 12em;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .about-items article h2 {
   text-align: left;
-  font-size: 1.5rem;
-  padding-top: .5em;
+  font-size: 1.3rem;
+  padding: 0;
+  margin: 0;
 }
 
  /****** CONTACT ******/
