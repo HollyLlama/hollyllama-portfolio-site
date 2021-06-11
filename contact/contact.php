@@ -1,7 +1,7 @@
 <?php
 if($_POST["submit"]) {
     $recipient="hollyelaineyanez@outlook.com";
-    $subject="HollyLlama Contact Form";
+    $subject="HollyLlama Contact Requested";
     $sender=$_POST["sender"];
     $senderLast=$_POST["senderLast"];
     $senderEmail=$_POST["senderEmail"];
@@ -13,9 +13,7 @@ if($_POST["submit"]) {
 
     $thankYou="<p>Thank you! Your message has been sent.</p>";
 }
-?>
-
-<!doctype html>
+?><!doctype html>
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
@@ -74,21 +72,19 @@ if($_POST["submit"]) {
               </div>
       
               <div class="contact-box">
-              <?=$thankYou ?>
+
                 <form  method="post" action="contact.php">
                   <h5>What's your name and how can I reach you?</h5>
-      
+                  
                   <input type="text" name="sender" class="input-field-name" placeholder="First Name">
                   <input type="text" name="senderLast" class="input-field" placeholder="Last Name">
                   <input type="email" name="senderEmail" class="input-field-email" placeholder="Email Address">
                   <input type="tel" name="senderPhone" class="input-field" placeholder="Daytime Phone">
-      
+                  <input type="submit" name="submit" value="submit">
                 </form>
-      
-                <form class="submit-button">
-                  <input type="submit" value="submit">
-                </form>
-      
+                
+                <?=$thankYou ?>
+                
               </div>
             </div>
           </div>
