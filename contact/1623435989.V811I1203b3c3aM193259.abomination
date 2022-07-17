@@ -1,0 +1,84 @@
+Return-Path: <>
+X-Original-To: holyan@abomination.dreamhost.com
+Delivered-To: holyan@abomination.dreamhost.com
+Received: by abomination.dreamhost.com (Postfix)
+	id 4G1q6s1DRBz2GM; Fri, 11 Jun 2021 11:26:29 -0700 (PDT)
+Date: Fri, 11 Jun 2021 11:26:29 -0700 (PDT)
+From: MAILER-DAEMON@abomination.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: holyan@abomination.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="4G1q6s0jlNz2F4.1623435989/abomination.dreamhost.com"
+Message-Id: <4G1q6s1DRBz2GM@abomination.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--4G1q6s0jlNz2F4.1623435989/abomination.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host abomination.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+                DreamHost Email Support
+
+<hollyelaineyanez@outlook.com>: host
+    iad1-shared-relay.dreamhost.com[208.113.156.243] said: 550 5.7.1 Sender
+    domain not allowed. Please read: http://dhurl.org/20b D15 (in reply to end
+    of DATA command)
+
+--4G1q6s0jlNz2F4.1623435989/abomination.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; abomination.dreamhost.com
+X-Postfix-Queue-ID: 4G1q6s0jlNz2F4
+X-Postfix-Sender: rfc822; holyan@abomination.dreamhost.com
+Arrival-Date: Fri, 11 Jun 2021 11:26:29 -0700 (PDT)
+
+Final-Recipient: rfc822; hollyelaineyanez@outlook.com
+Original-Recipient: rfc822;hollyelaineyanez@outlook.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; iad1-shared-relay.dreamhost.com
+Diagnostic-Code: smtp; 550 5.7.1 Sender domain not allowed. Please read:
+    http://dhurl.org/20b D15
+
+--4G1q6s0jlNz2F4.1623435989/abomination.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <holyan@abomination.dreamhost.com>
+Received: by abomination.dreamhost.com (Postfix, from userid 5412935)
+	id 4G1q6s0jlNz2F4; Fri, 11 Jun 2021 11:26:29 -0700 (PDT)
+To: hollyelaineyanez@outlook.com
+Subject: HollyLlama Contact Requested
+X-PHP-Originating-Script: 5412935:contact.php
+From: Holly <his_drummergrl@yahoo.com>
+Message-Id: <4G1q6s0jlNz2F4@abomination.dreamhost.com>
+Date: Fri, 11 Jun 2021 11:26:29 -0700 (PDT)
+
+Name: Holly
+
+Yanez
+Email: his_drummergrl@yahoo.com
+
+
+
+--4G1q6s0jlNz2F4.1623435989/abomination.dreamhost.com--

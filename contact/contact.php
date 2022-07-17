@@ -1,24 +1,24 @@
 <?php
 if($_POST["submit"]) {
-    $recipient="hollyelaineyanez@outlook.com";
+    $recipient="hey@hollyllama.com";
     $subject="HollyLlama Contact Requested";
     $sender=$_POST["sender"];
     $senderLast=$_POST["senderLast"];
     $senderEmail=$_POST["senderEmail"];
-    $senderphone=$_POST["senderPhone"];
+    $senderPhone=$_POST["senderPhone"];
 
-    $mailBody="Name: $sender\n\n$senderLast\nEmail: $senderEmail\n\n$senderPhone";
+    $mailBody="Name: $sender $senderLast\nEmail: $senderEmail\nPhone: $senderPhone";
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+    mail($recipient, $subject, $mailBody, "From: hey@hollyllama.com");
 
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
+    $thankYou="<h5>Thank you! Your message has been sent.</h5>";
 }
 ?><!doctype html>
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>HollyLlama Marketer, Graphic Designer & Web Developer</title>
+        <title>HollyLlama Web Developer and Designer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -58,7 +58,7 @@ if($_POST["submit"]) {
           </div>
 
           <div class="main" id="main">
-            <h2>The one-stop-shop for all things marketing, design and web development.</h2>
+            <h2 class="subheader">Creative frontend web developer and designer.</h2>
           </div>
 
         </header>
@@ -67,8 +67,8 @@ if($_POST["submit"]) {
           <div class="content-wrapper">
             <div class="contact-form">
               <div class="contact-description">
-                <h1>I want to hear from you!</h1>
-                <p>My best work comes from making real connections with my clients. That means our working relationship is not a sign-on-the-dotted-line, cold-hearted business deal. It's a partnership!</br></br>Together, you and I will bring your brand design, website and marketing dreams to life. Just make that first step to let me know you're interested and I'll do the rest!</p>
+                <h1>Let's connect!</h1>
+                <p>If you are looking to partner with an experienced professional to help with your brand design and web development needs, please fill out the form below and I will reach out to you shortly.</p>
               </div>
       
               <div class="contact-box">
@@ -80,9 +80,9 @@ if($_POST["submit"]) {
                   <input type="text" name="senderLast" class="input-field" placeholder="Last Name">
                   <input type="email" name="senderEmail" class="input-field-email" placeholder="Email Address">
                   <input type="tel" name="senderPhone" class="input-field" placeholder="Daytime Phone">
-                  <input type="submit" name="submit" value="submit">
+                  <input type="submit" name="submit" class="submit" value="submit">
                 </form>
-                
+
                 <?=$thankYou ?>
                 
               </div>
@@ -99,7 +99,7 @@ if($_POST["submit"]) {
           <div class="contact">
             <a href="https://www.linkedin.com/in/holly-y%C3%A1nez-7aab2755" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/HollyLlama" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:hollyelaineyanez@outlook.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:hey@hollyllama.com" target="_blank"><i class="fas fa-envelope"></i></a>
           </div>
 
           <p>&copy; Copyright <script>document.write(new Date().getFullYear());</script> | HollyLlama</p>

@@ -6,36 +6,27 @@ $(document).ready(function(){
   
   var nav = document.getElementById("nav");
   var sticky = nav.offsetTop;
+
   
   function myStickyFunction() {
     if (window.pageYOffset > sticky) {
       nav.classList.add("sticky");
+
+      var width = $("body").width();
+
+      if (width > 1024) {
+        $('.main').css('display', 'none');
+        $('header').css('min-height', '0px').css('padding-bottom', '100px');
+      }
     } else {
       nav.classList.remove("sticky");
+      var width = $("body").width();
+
+      if (width > 1024) {
+        $('.main').css('display', 'flex');
+        $('header').css('min-height', '500px').css('padding-bottom', '12rem');
+      }
     }
   }
-
-  
-  // Fade In & Slide Up
-  
-  $(window).scroll( function(){
-      
-    $('').each( function(i){
-        
-        var bottom_of_object = $(this).position().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-        
-        if( bottom_of_window > bottom_of_object ){
-            
-            //$(this).animate({'opacity':'1'},1);
-            $(this).slideUp(1);
-  
-                
-        }
-        
-    }); 
-    
-  
-  });
 
 });
