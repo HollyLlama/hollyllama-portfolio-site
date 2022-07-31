@@ -16,7 +16,7 @@ $(document).ready(function(){
 
       if (width > 1024) {
         $('.main').css('display', 'none');
-        $('header').css('min-height', '0px').css('padding-bottom', '100px');
+        $('header').css('min-height', '0px').css('padding-bottom', '150px');
       }
     } else {
       nav.classList.remove("sticky");
