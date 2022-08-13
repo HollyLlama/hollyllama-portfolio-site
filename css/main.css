@@ -327,12 +327,25 @@ nav li {
   outline: 0;
 }
 
-.llamalogo{
-  margin: 0;
-  max-width: 60%;
-  padding-right: 2em;
-  padding-top: .5em;
+.llamalogo-nav {
+  display: none;
 }
+
+.show {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 5% 0 0;
+  animation: fadeInAnimation ease 3s forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 .llamalogo {
   animation: fadeInAnimation ease 5s;
@@ -348,19 +361,25 @@ nav li {
    }
  }
 
-
 .main {
-  align-items: center;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
   margin: 0;
-  padding: 4em 0 2em 0;
+  padding: 20px;
 }
 
-.main h2 {
-  width: 82%;
-  padding-bottom: 2rem;
+.main {
+  animation: fadeInAnimation ease 5s forwards;
+}
+@keyframes fadeInAnimation {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.main-out {
+  animation: fadeOutAnimation ease 1s forwards;
+}
+@keyframes fadeOutAnimation {
+  0% { opacity: 1;}
+  100% { opacity: 0;}
 }
 
  /****** REVIEWS ******/
@@ -994,7 +1013,6 @@ input[type=submit]:hover {
  h1 {
    font-size: 1.8rem;
    padding-top: 1.5em;
-
  }
 
  h2 {
@@ -1057,20 +1075,26 @@ input[type=submit]:hover {
   padding: .3em 1.2em;
 }
 
-.llamalogo{
-  width: 50%;
-  padding: .5em 6em 0 0;
-}
-
  .main {
  width: 80%;
  padding: 3em 0;
  order: 2;
  }
 
- .main h2{
-  text-align: center;
-  }
+ .main h2 {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+ }
+
+ .llamalogo {
+  display: flex;
+  justify-content: center;
+  margin:  0 auto;
+  width: 50%;
+  padding: 20px 8% 20px 0;
+ }
+
 
 /****** PORTFOLIO ******/
 
@@ -1373,7 +1397,7 @@ footer .content-wrapper {
 
 /***********************************************************************/
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1200px) {
 /* For desktop: */
 
 /* Global Styles*/
@@ -1413,17 +1437,15 @@ header img {
 }
 
 .nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  width: 100%;
 }
 
 nav {
-  align-self: flex-start;
+  /* align-self: flex-start; */
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
-  width: 60%;
+  justify-content: flex-end;
+  width: 100%;
   padding: 1em 3em 0 0;
   margin: 0;
   order: 2;
@@ -1439,6 +1461,14 @@ nav ul {
   padding: 0;
 }
 
+.show {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: auto;
+  width: 100%
+}
+
 nav ul li {
   padding: .8em;
 }
@@ -1452,18 +1482,25 @@ nav ul li {
   top: 0;
   z-index: 2;
   width: 100%;
+  display: flex;
   justify-content: space-between;
 }
 
 .sticky img{
-  width: 10%;
+  width: 20%;
   padding: .3em 0 0 2em;
 }
 
-.sticky nav {
+.sticky .nav {
+  width: 80%;
+  display: flex;
+  align-items: center;
   justify-content: flex-end;
-  padding: .7em 0 0 0;
+  padding: 0;
   margin: 0;
+}
+.sticky nav {
+  padding: 0;
 }
 .sticky .btn {
   font-size: .9rem;
@@ -1492,14 +1529,12 @@ nav ul li {
   padding: .2em 1.1em;
 }
 
-.llamalogo{
-  width: 50%;
-  margin: 0;
-  padding: 5em 0 0 4em;
-  order: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.llamalogo {
+ display: flex;
+ justify-content: flex-start;
+ margin: 0 auto 0 0;
+ padding: 20px 10%;
+ width: 80%;
 }
 
 .llamalogo {
@@ -1516,30 +1551,14 @@ nav ul li {
   }
 }
 
+
 .main {
-  align-items: center;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  order: 3;
   width: 100%;
-  padding: 0 0 8% 0;
+  padding: 50px 0 8% 0;
   margin: 0;
 }
 
-.main {
-  animation: fadeInAnimation ease 5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-@keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-  }
-}
+
 
 /****** REVIEWS ******/
 

@@ -11,21 +11,12 @@ $(document).ready(function(){
   function myStickyFunction() {
     if (window.pageYOffset > sticky) {
       nav.classList.add("sticky");
-
-      var width = $("body").width();
-
-      if (width > 1024) {
-        $('.main').css('display', 'none');
-        $('header').css('min-height', '0px').css('padding-bottom', '150px');
-      }
+      $(".llamalogo-nav").addClass("show");
+      $(".main").addClass("main-out");
     } else {
       nav.classList.remove("sticky");
-      var width = $("body").width();
-
-      if (width > 1024) {
-        $('.main').css('display', 'flex');
-        $('header').css('min-height', '500px').css('padding-bottom', '12rem');
-      }
+      $(".llamalogo-nav").removeClass("show");
+      $(".main").removeClass("main-out");
     }
   }
 
