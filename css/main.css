@@ -346,6 +346,11 @@ nav li {
   100% { opacity: 1; }
 }
 
+.llamalogo img {
+  margin-right: 14%;
+  max-width: 80%;
+}
+
 
 .llamalogo {
   animation: fadeInAnimation ease 5s;
@@ -1041,7 +1046,7 @@ input[type=submit]:hover {
  nav {
    align-self: center;
    display: flex;
-   flex-flow: row wrap;
+   flex-flow: row;
    justify-content: center;
    max-width: 100%;
    padding: 1em;
@@ -1050,9 +1055,6 @@ input[type=submit]:hover {
 
  nav ul {
    align-items: center;
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: flex-start;
    list-style-type:none;
    margin: 0;
    padding: 0;
@@ -1067,7 +1069,7 @@ input[type=submit]:hover {
 .btn {
   border-radius: 0.8em;
   font-size: 1.5rem;
-  margin: .7em;
+  margin: 0em;
   padding: .3em .7em;
 }
 
@@ -1085,14 +1087,6 @@ input[type=submit]:hover {
    display: flex;
    justify-content: center;
    text-align: center;
- }
-
- .llamalogo {
-  display: flex;
-  justify-content: center;
-  margin:  0 auto;
-  width: 50%;
-  padding: 20px 8% 20px 0;
  }
 
 
