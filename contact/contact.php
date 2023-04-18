@@ -60,7 +60,7 @@ if($_POST["submit"]) {
           <div class="main" id="main">
             <a href="../" class="llamalogo" id="llamalogo"><img src="../img/hollyllama-logo-coolblue.png" alt="HollyLlama Logo"></a>
 
-            <h2 class="subheader">Creative frontend web developer and designer.</h2>
+            <h2 class="subheader">Creative front-end web developer and designer.</h2>
           </div>
 
         </header>

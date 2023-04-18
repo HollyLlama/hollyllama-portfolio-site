@@ -144,6 +144,17 @@ h2 {
   width: 100%;
 }
 
+.dev-title{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 4em 0 2em 0;
+  text-align: center;
+  width: 100%;
+}
+
 h4 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -172,6 +183,11 @@ p {
   max-width: 100%;
   padding: 0;
   text-align: center;
+}
+
+a {
+  color: #0a60a7;
+  text-shadow: #000;
 }
 
 .content-wrapper {
@@ -641,6 +657,7 @@ nav li {
 }
 
 /**********DESIGN PAGE**********/
+
 
  #designs{
   background-color: #6099b7;
@@ -1598,7 +1615,7 @@ nav ul li {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  padding: 4em 12em 8em 12em;
+  padding: 4em 12em 0 12em;
   max-width: 80%;
 }
 
@@ -1771,6 +1788,12 @@ footer .content-wrapper {
 
 /**********DESIGNS PAGE DESKTOP**********/
 
+#designs .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start
+}
+
 #designs {
   padding: 0 0 8em 0;
 }
@@ -1782,7 +1805,7 @@ footer .content-wrapper {
 
 #designs h2 {
   text-align: center;
-  padding-top: 5em;
+  padding-top: 2em;
   padding-bottom: 0;
   margin-bottom: 0;
   color: #fff;
@@ -1821,7 +1844,7 @@ footer .content-wrapper {
   flex-flow: column;
   text-align: center;
   padding: 0 2em;
-  max-width: 25%;
+  max-width: 20%;
 }
 
 .design-items figure {
@@ -1833,7 +1856,6 @@ footer .content-wrapper {
   max-width: 100%;
   display: flex;
   opacity: 1;
-  padding-top: 3em;
 }
 
 .design-items figure:hover {
@@ -1842,7 +1864,7 @@ footer .content-wrapper {
 
 .design-items img {
   max-width:100%;
-  height: 500px;
+  height: 280px;
 }
 
 .design-items article {
@@ -1879,7 +1901,6 @@ footer .content-wrapper {
   max-width: 100%;
   display: flex;
   opacity: 1;
-  padding-top: 8em;
 }
 
 .design-items-wide figure:hover {
